@@ -33,7 +33,7 @@ export function HeroSection() {
             className="max-w-[700px] text-center text-muted-foreground"
           >
             <p className="mt-4 text-lg">
-             Hello, I'm Sanjay. Undergraduate at CBIT, Hyderabad. I'm a full-stack developer passionate in building dynamic and responsive web Applications 
+             Hello, I&apos;m Sanjay. Undergraduate at CBIT, Hyderabad. I&apos;m a full-stack developer passionate in building dynamic and responsive web Applications 
             </p>
           </motion.div>
 

@@ -61,7 +61,7 @@ export function SkillsSection() {
         >
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills</h2>
           <p className="mx-auto mt-4 max-w-[700px] text-muted-foreground md:text-xl">
-            Technologies and tools I've worked with
+            Technologies and tools I&apos;ve worked with
           </p>
         </motion.div>
 

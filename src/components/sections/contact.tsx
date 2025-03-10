@@ -75,7 +75,7 @@ export function ContactSection() {
         >
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Me</h2>
           <p className="mx-auto mt-4 max-w-[700px] text-muted-foreground md:text-xl">
-            Let's connect! Feel free to reach out for collaborations or just a friendly chat.
+            Let&apos;s connect! Feel free to reach out for collaborations or just a friendly chat.
           </p>
         </motion.div>
 
@@ -90,7 +90,7 @@ export function ContactSection() {
             <div className="flex flex-col space-y-2">
               <h3 className="text-xl font-bold">Get in Touch</h3>
               <p className="text-muted-foreground">
-                I'm currently open to new opportunities and collaborations. 
+                I&apos;m currently open to new opportunities and collaborations. 
                 Feel free to reach out if you have any questions or just want to say hi!
               </p>
             </div>

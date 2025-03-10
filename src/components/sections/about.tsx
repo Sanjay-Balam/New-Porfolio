@@ -38,7 +38,7 @@ export function AboutSection() {
                   </div>
                   <h3 className="text-xl font-bold">Personal Info</h3>
                   <p className="mt-2 text-center text-sm text-muted-foreground">
-                    I'm a software developer based in India, passionate about building efficient and scalable applications.
+                    I&apos;m a software developer based in India, passionate about building efficient and scalable applications.
                     I enjoy solving complex problems and continuously learning new technologies.
                   </p>
                 </CardContent>
