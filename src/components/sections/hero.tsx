@@ -4,12 +4,14 @@ import { motion } from "framer-motion"
 import { ArrowDown, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Head from "next/head"
 
 export function HeroSection() {
   return (
     <section
       id="home"
       className="flex min-h-screen flex-col items-center justify-center py-12 md:py-24 lg:py-32"
+      aria-label="Introduction"
     >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center gap-4 text-center">
@@ -22,7 +24,7 @@ export function HeroSection() {
               Sanjay Balam
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
-              Software Developer | Backend & Full-Stack
+              Software Engineer | Backend & Full-Stack Developer
             </p>
           </motion.div>
           
@@ -33,7 +35,7 @@ export function HeroSection() {
             className="max-w-[700px] text-center text-muted-foreground"
           >
             <p className="mt-4 text-lg">
-             Hello, I&apos;m Sanjay. Undergraduate at CBIT, Hyderabad. I&apos;m a full-stack developer passionate in building dynamic and responsive web Applications 
+              Hello, I&apos;m Sanjay. Undergraduate at CBIT, Hyderabad. I&apos;m a full-stack developer passionate about building dynamic and responsive web applications with expertise in React, Node.js, and TypeScript.
             </p>
           </motion.div>
 

@@ -12,6 +12,7 @@ const projects = [
     title: "Paytm Web App",
     description: "Secure Money Transfer application inspired by Paytm, enabling secure transactions between users.",
     image: "/projects/paytm.jpg",
+    alt: "Paytm Web App screenshot showing the user interface for money transfers",
     tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     liveUrl: "https://paytm-frontend-steel.vercel.app/",
     githubUrl: "https://github.com/Sanjay-Balam/End-To-End-PayTM-app",
@@ -28,6 +29,7 @@ const projects = [
     title: "SAAS Platform",
     description: "SaaS platform enabling users to create and manage personalized song queues with streamlined functionality.",
     image: "/projects/saas.jpg",
+    alt: "SAAS Platform screenshot showing the user interface for managing song queues",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OAuth"],
     liveUrl: "https://song-craft-gizq.vercel.app/",
     githubUrl: "https://github.com/Sanjay-Balam/SongCraft",
@@ -44,6 +46,7 @@ const projects = [
     title: "Room Chat Application",
     description: "Real-time Room Chat Application using WebSockets, enabling seamless communication in dynamic chat rooms.",
     image: "/projects/chat.jpg",
+    alt: "Room Chat Application screenshot showing the user interface for real-time chat",
     tags: ["React", "WebSockets", "Node.js", "Express", "TypeScript"],
     liveUrl: "https://room-chat.example.com",
     githubUrl: "https://github.com/Sanjay-Balam/Real-time-chat-app",
@@ -91,8 +94,15 @@ export function ProjectsSection() {
               >
                 <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
                   <div className="relative h-48 w-full overflow-hidden">
+                    <Image 
+                      src={project.image} 
+                      alt={project.alt} 
+                      fill 
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      priority={index < 2}
+                    />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
-                    <div className="h-full w-full bg-muted" />
                   </div>
                   <CardHeader className="text-center">
                     <div className="flex justify-between items-center mb-2">

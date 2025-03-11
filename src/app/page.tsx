@@ -7,10 +7,12 @@ import { ExperienceSection } from "@/components/sections/experience";
 import { ProjectsSection } from "@/components/sections/projects";
 import { AchievementsSection } from "@/components/sections/achievements";
 import { ContactSection } from "@/components/sections/contact";
+import { PersonStructuredData } from "@/components/structured-data";
 
 export default function Home() {
   return (
     <>
+      <PersonStructuredData />
       <Header />
       <main>
         <HeroSection />
