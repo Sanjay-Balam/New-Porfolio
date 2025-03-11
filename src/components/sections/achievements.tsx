@@ -42,7 +42,7 @@ export function AchievementsSection() {
   return (
     <section
       id="achievements"
-      className="bg-muted/40 py-12 md:py-24 lg:py-32 pl-24"
+      className="bg-muted/40 py-12 md:py-24 lg:py-32 lg:pl-24 sm:pl-4"
     >
       <div className="container px-4 md:px-6">
         <motion.div

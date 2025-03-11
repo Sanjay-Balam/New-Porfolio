@@ -8,7 +8,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="bg-muted/40 py-12 md:py-24 lg:py-32 pl-14"
+      className="bg-muted/40 py-12 md:py-24 lg:py-32 lg:pl-14 pr-20 sm:pr-18"
     >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">

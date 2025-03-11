@@ -49,7 +49,7 @@ export function SkillsSection() {
   return (
     <section
       id="skills"
-      className="py-12 md:py-24 lg:py-32 ml-20"
+      className="py-12 md:py-24 lg:py-32 lg:ml-20 sm:ml-8"
     >
       <div className="container px-4 md:px-6">
         <motion.div
