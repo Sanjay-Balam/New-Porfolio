@@ -5,11 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const experiences = [
   {
-    title: "Software Developer Intern",
+    title: "FullStack Software Developer Intern",
     company: "Vectorsoft",
-    period: "Oct 2025 - Present",
+    period: "Oct 2024 - Present",
     description: [
-      "Coordinated with a team to develop and maintain a healthcare-related web application",
+      "Coordinated with a team to develop and maintain a healthcare-related Desktop application developed using Tauri, Nextjs",
       "Focused on implementing dynamic features and resolving high-priority bugs",
       "Utilized Next.js, TypeScript, TailwindCSS, ShadCN UI, and React Forms",
       "Incorporated Atoms for efficient state management",
@@ -17,7 +17,7 @@ const experiences = [
     ]
   },
   {
-    title: "Software Intern",
+    title: "Software Developer Intern",
     company: "Venkys.io",
     period: "April - Sept 2024",
     description: [
