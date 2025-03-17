@@ -82,9 +82,9 @@ export function AboutSection() {
                   <h3 className="text-xl font-bold">Experience</h3>
                   <ul className="mt-2 space-y-2 text-center text-sm text-muted-foreground">
                     <li>
-                      <p className="font-medium">Software Developer</p>
+                      <p className="font-medium">FullStack Software Developer Intern</p>
                       <p>Vectorsoft</p>
-                      <p className="text-xs">Oct 2025 - Present</p>
+                      <p className="text-xs">Oct 2024 - Present</p>
                     </li>
                     <li>
                       <p className="font-medium">Software Developer Intern</p>
